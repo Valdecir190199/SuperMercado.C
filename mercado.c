@@ -265,7 +265,7 @@ void listar_cliente()
     while (fread(&cliente, sizeof(Cliente), 1, arquivo))
     {
 
-        cout << cliente.codigo << " - " << cliente.nome << ;
+        cout << cliente.codigo << " - " << cliente.nome << endl;
     }
 
     fclose(arquivo);
